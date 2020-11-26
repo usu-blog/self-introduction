@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export const Card: React.FC<{ icon: string; title: string }> = ({
   icon,
   title,
   children,
 }) => {
+  const [active, setActive] = useState(false)
   return (
-    <div className="card">
+    <div className="card" onClick={() => setActive(!active)}>
       <div className="card__header">{icon}</div>
       <div className="card__content">
         <h3 className="card__title">{title}</h3>

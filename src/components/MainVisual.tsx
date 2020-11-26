@@ -97,6 +97,10 @@ export const MainVisual = () => {
             </P>
             <P>好きな技術: React, Nuxt.js, TypeScript, Storybook, Firebase</P>
             <P>好きなこと: 挑戦, 効率化, 自動化, デザイン</P>
+            <P>
+              やってみたいこと: アプリ開発, 人前でプレゼン, デザイン,
+              事業を立ち上げる
+            </P>
           </Content>
         </StyledContent>
       </StyledMainVisual>
